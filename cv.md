@@ -27,3 +27,15 @@ and experience in graphic/print, social media design. And I like frontend too. S
 * communication
 * flexibility
 * multutasking
+
+## Education
+
+* Bachelor of physics - Mordovian State University - 2015
+* Course Web development - Ivan Petrychenko - 2021
+
+## Languages
+
+* Russian (Native)
+* English (Intermediate)
+* Italian (Elementary)
+* Lithuanian (Elementary)
