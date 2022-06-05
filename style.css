@@ -4,14 +4,70 @@
 }
 
 body {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Franklin Gothic Regular';
+    padding: 100px;
 }
 
 header {
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 50px;
+    background: lightcyan;
 }
 
+main {
+    display: flex;
+    justify-content: space-between;
+    background: azure;
+}   
+
 img {
-    width: 50%;
+    width: 20%;
 }
+
+h1 {
+    font-size: 54px;
+}
+
+.contacts {
+    margin-right: 300px;
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+li .contacts {
+    padding-bottom: 14px;
+}
+
+h3 {
+    font-size: 34px;
+    padding-bottom: 14px;
+    padding-top: 64px;
+}
+
+p {
+    font-size: 22px;
+    margin-bottom: 40px;
+    color: grey;
+}
+
+li {
+    font-size: 22px;
+    color: grey;
+    font-weight: 300;
+}
+
+ul {
+    margin-bottom: 40px;
+}
+
+.left-side {
+    width: 30%;
+    padding-left: 100px;
+}
+
+.right-side {
+    margin-right: 174px;
+}
+
