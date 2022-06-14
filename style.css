@@ -96,3 +96,24 @@ a {
 .contact-item {
     font-size: 20px;
 }
+
+footer {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.github {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.logo-course {
+    width: 200px;
+}
+
+.year {
+    font-size: 18px;
+}
