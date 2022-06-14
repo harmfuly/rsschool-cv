@@ -49,7 +49,6 @@ h1 {
 
 .contacts {
     margin-right: 300px;
-    font-size: 24px;
     margin-bottom: 0;
 }
 
@@ -91,4 +90,8 @@ ul {
 a {
     text-decoration: none;
     color: grey;
+}
+
+.contact-item {
+    font-size: 20px;
 }
