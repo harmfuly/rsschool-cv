@@ -1,4 +1,4 @@
-![photo](/photo.jpg)
+![photo](assets/img/photo.jpg)
 # Natalia Davydova
 
 [Email](mailto:harmfuly7@gmail.com)
