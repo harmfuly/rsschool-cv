@@ -1,11 +1,29 @@
+@font-face {
+    font-family: 'Lato';
+    src: url("assets/fonts/Lato-Thin.ttf");
+    font-weight: 100;
+}
+@font-face {
+    font-family: 'Lato';
+    src: url("assets/fonts/Lato-Regular.ttf");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url("assets/fonts/Lato-Bold.ttf");
+    font-weight: 600;
+}
+
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-    font-family: 'Franklin Gothic Medium', 'Franklin Gothic Regular';
     padding: 100px;
+    font-family: 'Lato';
 }
 
 header {
@@ -32,7 +50,6 @@ h1 {
 
 .contacts {
     margin-right: 300px;
-    font-size: 24px;
     margin-bottom: 0;
 }
 
@@ -53,7 +70,7 @@ p {
 }
 
 li {
-    font-size: 22px;
+    font-size: 20px;
     color: grey;
     font-weight: 300;
 }
@@ -74,4 +91,29 @@ ul {
 a {
     text-decoration: none;
     color: grey;
+}
+
+.contact-item {
+    font-size: 18px;
+}
+
+footer {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.github {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.logo-course {
+    width: 200px;
+}
+
+.year {
+    font-size: 18px;
 }
