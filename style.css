@@ -18,68 +18,128 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html {
+    scroll-behavior: smooth; 
+  }
+
 body {
-    padding: 100px;
     font-family: 'Lato';
+    background: #EEE8FF;
+}
+
+.container {
+    width: 1440px;
+    margin: 40px auto;
+    padding-right: 100px;
+    padding-left: 100px;
 }
 
 header {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    padding-bottom: 50px;
-    background: lightcyan;
+    background: #fff;
+}
+
+.header-text {
+    flex-direction: column;
+    margin-left: 70px;
+    margin-top: 20px;
 }
 main {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    background: azure;
-}   
+} 
+ 
 img {
     width: 20%;
 }
 h1 {
     font-size: 54px;
+    color:#3F1892;
+    margin-bottom: 10px;
+    margin-top: 30px;
 }
-.contacts {
-    margin-right: 300px;
-    margin-bottom: 0;
+
+.contact-list {
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    list-style: none;
+    margin-bottom: 30px;
+    padding-left: 0;
+
 }
-li .contacts {
-    padding-bottom: 14px;
+
+.contact-list a:hover,
+.portfolio-list a:hover {
+    opacity: 0.5;
 }
-h3 {
+
+h2 {
     font-size: 34px;
-    padding-bottom: 14px;
-    padding-top: 64px;
+    margin-bottom: 20px;
+    color:#3F1892;
 }
 p {
-    font-size: 22px;
-    margin-bottom: 40px;
-    color: grey;
+    font-size: 18px;
+    color: #3F1892;
+    line-height: 24px;
 }
-li {
-    font-size: 20px;
-    color: grey;
-    font-weight: 300;
-}
+
 ul {
-    margin-bottom: 40px;
+    padding-left: 20px;
 }
-.left-side {
-    width: 30%;
-    padding-left: 100px;
+
+li {
+    font-size: 18px;
+    color: #3F1892;
+    font-weight: 300;
+    line-height: 24px;
 }
-.right-side {
-    margin-right: 174px;
+
+nav {
+    margin-left: -37px;
 }
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 922px;
+}
+
+.nav-link {
+    font-size: 16px;
+    color: #3F1892;
+    opacity: 0.5;
+    padding: 0 20px;
+    line-height: 50px;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    opacity: 1;
+}
+
+.contacts {
+    margin-top: 50px;
+}
+
 a {
     text-decoration: none;
-    color: grey;
+    color: #3F1892;
 }
-.contact-item {
-    font-size: 18px;
+
+code {
+    background: #fff;
+    padding: 20px;
 }
+
+.code-example-title {
+    margin-bottom: 40px;
+}
+
 footer {
     margin-top: 150px;
     display: flex;
@@ -91,9 +151,15 @@ footer {
     font-size: 20px;
     font-weight: 600;
 }
+
+.github:hover {
+    opacity: 0.5;
+}
+
 .logo-course {
     width: 200px;
 }
 .year {
-    font-size: 18px;
+    font-size: 16px;
+    color: #3F1892;
 }
