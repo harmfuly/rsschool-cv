@@ -1,22 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Inika:wght@400;700&family=Inter:wght@300;400;500;600;700&display=swap');
 
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-body {
-    background: #EDF2EC;
-    box-sizing: border-box;
-}
-
 .container {
-    max-width: 1440px;
+    max-width: 1222px;
     margin: 0 auto;
 }
 
 header {
-    height: 134px;
+    background: #EDF2EC;
+    padding: 42px 110px;
+    width: 100%;
+}
+
+.full_menu {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -49,9 +50,13 @@ header {
 }
 
 .welcome {
+    background: #EDF2EC;
+    width: 100%;
+}
+
+.content_bl1 {
     display: flex;
     justify-content: space-between;
-    height: 532px;
 }
 
 .right_part_bl1 {
@@ -96,10 +101,13 @@ h1 {
 }
 
 .about {
-    display: flex;
-    justify-content: space-between;
     background: #fff;
     height: 666px;
+}
+
+.content_bl2 {
+    display: flex;
+    justify-content: space-between;
 }
 
 .title_bl2 {
