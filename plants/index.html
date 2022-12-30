@@ -1,41 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Plants</title>
 </head>
 <body>
-    <header>
+    <header class="container">
         <div class="logo">
             <img src="/plants/icons/logo_vector.svg" alt="logo">
-            <p description>Plants</p>
+            <a class="description">Plants</a>
         </div>
-        <nav class="menu">
-            <ul>
-                <li>Home</li>
-                <li>About us</li>
-                <li>Service</li>
-                <li>Price</li>
-                <li>Contacts</li>
+        <nav>
+            <ul class="menu">
+                <li class="navigation">Home</li>
+                <li class="navigation">About us</li>
+                <li class="navigation">Service</li>
+                <li class="navigation">Price</li>
+                <li class="navigation">Contacts</li>
             </ul>
         </nav>
     </header>
-    <main>
+    <main class="container">
         <section class="welcome">
             <div class="img-bl1">
-                <img src="/plants/img/leafs.png" alt="leafs">
+                <img src="/plants/img/leafs.png" alt="leafs" class="leafs_bl1">
             </div>
             <div class="right_part_bl1">
-                <h1>We grow plants and give you oxygen</h1>
+                <h1>We grow <span class="green">plants</span> and give you oxygen</h1>
                 <p class="subtitle_bl1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
-                <button>LEARN MORE</button>
+                <button class="btn_bl1">LEARN MORE</button>
             </div>
         </section>
         <section class="about">
             <div class="left_part_bl2">
-                <h2>We are professional experienced gardeners</h2>
+                <h2 class="title_bl2">We are <span class="orange">professional experienced</span> gardeners</h2>
                 <p class="text_bl2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
             </div>
             <img src="/plants/img/houseplant 1.png" alt="houseplant">
@@ -119,7 +120,7 @@
             </form>
         </section>
     </main>
-    <footer>
+    <footer class="container">
         <div class="left_part_footer">
             <span>©</span>
             <span>2022</span>
