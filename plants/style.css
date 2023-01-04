@@ -35,8 +35,12 @@ header {
     width: 452px;
 }
 
-.navigation {
+ul {
     list-style: none;
+}
+
+a.navigation {
+    text-decoration: none;
     font-family: 'Inika';
     font-weight: 400;
     font-size: 16px;
@@ -94,6 +98,7 @@ h1 {
     border-radius: 10px;
     padding: 14px 27px;
     margin-top: 48px;
+    margin-bottom: 94px;
 }
 
 .leafs_bl1 {
@@ -110,12 +115,15 @@ h1 {
     justify-content: space-between;
 }
 
-.title_bl2 {
+.title_bl3, .title_bl2 {
     font-family: 'Inika';
     font-weight: 400;
     font-size: 40px;
     line-height: 52px;
     color: #499A18;
+}
+
+.title_bl2 {
     margin-top: 161px;
 }
 
@@ -131,4 +139,78 @@ h1 {
     color: #636060;
     margin-top: 40px;
     width: 605px;
+}
+
+.service {
+    width: 100%;
+    background: #EDF2EC;
+    padding-top: 40px;
+    padding-bottom: 120px;
+}
+
+.top_part_bl3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 90px;
+}
+
+.btn_bl3 {
+    color: #E06733;
+    font-family: 'Inika';
+    font-weight: 400;
+    font-size: 20px;
+    border: 1px solid #E06733;
+    border-radius: 5px;
+    background: transparent;
+    padding: 12px 40px;
+}
+
+.btn_container_bl3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 559px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 55px;
+}
+
+h4 {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #E06733;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.description-service {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #717171;
+}
+
+.card1, .card2, .card3, .card4, .card5, .card6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card1_texts, .card2_texts, .card3_texts, 
+.card4_texts, .card5_texts, .card6_texts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 330px;
+    height: 100px;
+    border: 1px solid #E3E1D5;
+    border-radius: 0px 0px 20px 20px;
 }
