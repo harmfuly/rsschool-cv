@@ -6,6 +6,11 @@
     padding: 0;
 }
 
+html {
+    scroll-behavior: smooth; 
+  }
+
+
 .container {
     max-width: 1222px;
     margin: 0 auto;
@@ -213,4 +218,157 @@ h4 {
     height: 100px;
     border: 1px solid #E3E1D5;
     border-radius: 0px 0px 20px 20px;
+}
+
+.title_price_right, .title_price_left {
+    color: #000;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    margin-top: 40px;
+}
+
+.title_price_right {
+    text-align: right;
+    margin-bottom: 38px;
+}
+
+.price {
+    width: 100%;
+    background: #fff;
+}
+
+.choice {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 332px;
+    height: 282.01px;
+    border: 1px solid #E3E1D5;
+    border-radius: 20px;
+    margin-top: 60px;
+    padding: 34px 41px;
+}
+
+select {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+    border-radius: 20px;
+    border: none;
+    width: 250px;
+    height: 50px;
+    padding-left: 40px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url("./img/accordion_btn.png") 95% / 10% no-repeat #EDF2EC;
+    outline: none;
+    cursor: pointer;
+}
+
+select::-ms-expand { 
+    display: none;
+}
+
+.content_bl4 {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 115px;
+}
+
+.right_part_bl4 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.pic_bl4 {
+    margin-top: 34px;
+}
+
+.contacts {
+    width: 100%;
+    background: #EDF2EC;
+}
+
+.title_bl5 {
+    font-family: 'Inika';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+    text-align: center;
+}
+
+.content_bl5 {
+    padding-top: 60px;
+}
+
+.pic_and_form_bl5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: -62px;
+}
+
+.form_city {
+    margin-top: 148px;
+}
+
+.form_bl5 {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    color: #717171;
+    background: url("./img/accordion_btn2.png") 95% / 3.5% no-repeat #D6E7D2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px;
+    outline: none;
+    cursor: pointer;
+    width: 450px;
+    height: 50px;
+    padding-left: 20px;
+}
+
+footer {
+    background: #fff;
+    height: 130px;
+}
+
+.content_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+
+.left_part_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 182px;
+}
+
+.footer_text, .center_part_footer {
+    color: #000;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.social {
+    display: flex;
+    justify-content: space-between;
+    width: 188px;
+}
+
+a.footer_text, a.center_part_footer {
+    text-decoration: none;
 }

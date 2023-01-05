@@ -3,6 +3,7 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/plants/favicon.ico">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -116,93 +117,71 @@
             </div>
         </section>
         <section class="price" id="price">
-            <div class="right_part_bl4">
-                <h2 class="title_price_right">Price</h2>
-                <div class="choice">
-                    <form>
-                        <select>
-                          <option value="basics">Basics</option>
-                        </select>
-                    </form>
-                    <form>
-                        <select>
-                          <option value="standard">Standart</option>
-                        </select>
-                    </form>
-                    <form>
-                        <select>
-                          <option value="pro care">Pro care</option>
-                        </select>
-                    </form>
+            <div class="container">
+                <div class="content_bl4">
+                    <div class="left_part_bl4">
+                        <h2 class="title_price_left">Price</h2>
+                        <div class="choice">
+                            <form>
+                                <select>
+                                  <option value="basics">Basics</option>
+                                </select>
+                            </form>
+                            <form>
+                                <select>
+                                  <option value="standard">Standart</option>
+                                </select>
+                            </form>
+                            <form>
+                                <select>
+                                  <option value="pro care">Pro care</option>
+                                </select>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="right_part_bl4">
+                        <h2 class="title_price_right">Our best <span class="green">gardeners</span> are<br>ready to help you</h2>
+                        <button class="btn_bl3">Contact us</button>
+                        <div class="pic_bl4">
+                            <img src="/plants/img/leafs_bl4.png" alt="small leafs">
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="left_part_bl4">
-                <h2 class="title_price_left">Our best gardeners are ready to help you</h2>
-                <button>Contact us</button>
-                <img src="/plants/img/leafs_bl4.png" alt="small leafs">
             </div>
         </section>
         <section class="contacts" id="contacts">
-            <h2 class="title_bl5">Contact us</h2>
-            <img src="/plants/img/contact_woman 1.png" alt="woman">
-            <form>
-                <select>
-                  <option value="city">City</option>
-                </select>
-            </form>
+            <div class="container">
+                <div class="content_bl5">
+                    <h2 class="title_bl5">Contact us</h2>
+                    <div class="pic_and_form_bl5">
+                        <img src="/plants/img/contact_woman 1.png" alt="woman">
+                        <form class="form_city">
+                            <select class="form_bl5">
+                              <option value="city">City</option>
+                            </select>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
-    <footer class="container">
-        <div class="left_part_footer">
-            <span>©</span>
-            <span>2022</span>
-            <a>github</a>
+    <footer class="footer">
+        <div class="container">
+            <div class="content_footer">
+                <div class="left_part_footer">
+                    <span class="footer_text">©</span>
+                    <span class="footer_text">2022</span>
+                    <a class="footer_text" href="https://github.com/harmfuly">github</a>
+                </div>
+                <a class="center_part_footer" href="https://rs.school/js-stage0/ ">Rolling Scopes School</a>
+                <ul class="social">
+                    <li><img src="/plants/icons/inst 1.svg" alt="instagram"></li>
+                    <li><img src="/plants/icons/fb 1.svg" alt="facebook"></li>
+                    <li><img src="/plants/icons/tw 1.svg" alt="twitter"></li>
+                    <li><img src="/plants/icons/pinterest 1.svg" alt="pinterest"></li>
+                </ul>
+            </div>
         </div>
-        <div class="center_part_footer">Rolling Scopes School</div>
-        <ul class="social">
-            <li><img src="/plants/icons/inst 1.svg" alt="instagram"></li>
-            <li><img src="/plants/icons/fb 1.svg" alt="facebook"></li>
-            <li><img src="/plants/icons/tw 1.svg" alt="twitter"></li>
-            <li><img src="/plants/icons/pinterest 1.svg" alt="pinterest"></li>
-        </ul>
     </footer>
-<!-- Code injected by live-server -->
-<script>
-	// <![CDATA[  <-- For SVG support
-	if ('WebSocket' in window) {
-		(function () {
-			function refreshCSS() {
-				var sheets = [].slice.call(document.getElementsByTagName("link"));
-				var head = document.getElementsByTagName("head")[0];
-				for (var i = 0; i < sheets.length; ++i) {
-					var elem = sheets[i];
-					var parent = elem.parentElement || head;
-					parent.removeChild(elem);
-					var rel = elem.rel;
-					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
-						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
-						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
-					}
-					parent.appendChild(elem);
-				}
-			}
-			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
-			var address = protocol + window.location.host + window.location.pathname + '/ws';
-			var socket = new WebSocket(address);
-			socket.onmessage = function (msg) {
-				if (msg.data == 'reload') window.location.reload();
-				else if (msg.data == 'refreshcss') refreshCSS();
-			};
-			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
-				console.log('Live reload enabled.');
-				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
-			}
-		})();
-	}
-	else {
-		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
-	}
-	// ]]>
-</script>
 </body>
 </html>
