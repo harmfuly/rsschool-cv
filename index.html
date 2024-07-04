@@ -102,13 +102,10 @@
         <section class="container" id="example">
             <h2 class="code-example-title">Code example</h2>
             <code>
-            function summary(){
-                goodsElements.forEach(element => {
-                    sum += countGoods[element.dataset.goods] * element.value;
-                })
-                resultElem.textContent = sum;
-                sum = 0;
-            }
+                switchLanguage(lang: string): void {
+                    this.translateService.use(lang);
+                    this.setCurrentLanguage(lang);
+                  }
             </code>
         </section>
         <section class="container" id="portfolio">
